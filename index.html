@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+
+  <!-- Fonts & Icons -->
+  <!-- Fonts & Icons -->
+<!-- Google Fonts: Inter (400, 600, 700, 800) -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+<!-- Font Awesome (Latest CDN) -->
+<link 
+  rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+  integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkfzlFhg3S2lD8oa8Zj5j1pJ+J6iMx0mJQ0D1p2A5RyJz3GJ2d3W3m9sA==" 
+  crossorigin="anonymous" 
+  referrerpolicy="no-referrer" 
+/>
+
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a class="logo gradient-text" href="#home">Portfolio</a>
+
+      <button class="nav__toggle" id="menuToggle" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#certifications">Certifications</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO (Home) ===== -->
+  <section id="home" class="section hero hero-pattern">
+    <div class="container hero__grid reveal">
+      <div class="hero__text">
+        <h1>Hi, I'm <span class="gradient-text">Soumyata Singh</span></h1>
+        <h2>Frontend Developer</h2>
+        <p>
+          I create beautiful, responsive websites with modern technologies and best practices.
+        </p>
+
+        <div class="hero__cta">
+          <a href="#contact" class="btn btn--primary">Contact Me</a>
+          <a href="#projects" class="btn btn--ghost">View Work</a>
+        </div>
+
+        <div class="socials">
+          <!-- Put your real links here -->
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="hero__photo floating">
+        <!-- Replace src with your own image path if you want -->
+        <img
+          src="C:\Users\Soumyata Singh\OneDrive\Desktop\Portfolio\pass-pic.jpg"
+          alt="Profile"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about">
+    <div class="container reveal">
+      <h2 class="section__title"><span class="gradient-text">Who</span> am I?</h2>
+
+      <div class="about__grid">
+        <div class="about__photo">
+          <img
+            src="C:\Users\Soumyata Singh\OneDrive\Desktop\Portfolio\pass-pic.jpg"
+            alt="About portrait"
+          />
+        </div>
+
+        <div class="about__content">
+          <p>
+            I’m an Electronics and Instrumentation Engineering student with a solid technical foundation, now advancing into data analysis and full-stack development.
+            My journey bridges hardware precision with software innovation, giving me the ability to solve problems from multiple perspectives.
+          </p>
+          <p>
+            Passionate about building efficient solutions and applying technology to create real-world impact, I thrive on continuous learning and curiosity. 
+            Whether it’s analyzing data, developing applications, or optimizing systems, I aim to contribute to dynamic IT environments where innovation meets meaningful results.
+          </p>
+
+          <div class="about__facts">
+            <div class="fact"><i class="fa-solid fa-user-tie"></i> Soumyata Singh</div>
+            <div class="fact"><i class="fa-solid fa-envelope"></i> soumyatasingh5036@gmail.com</div>
+            <div class="fact"><i class="fa-solid fa-phone"></i> +91 6289012612</div>
+            <div class="fact"><i class="fa-solid fa-location-dot"></i> Kolkata, India</div>
+            <div class="fact"><i class="fa-solid fa-cake-candles"></i> December 03, 2003</div>
+            <div class="fact"><i class="fa-solid fa-graduation-cap"></i> B.Tech (Electronics And Instrumentation)</div>
+          </div>
+
+          <a href="#" class="btn btn--primary about__cv">
+            Download CV <i class="fa-solid fa-download"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills" id="skills">
+  <h2>My Skills</h2>
+  <div class="skills__grid">
+    <!-- Programming Languages -->
+    <div class="skill__box">
+      <h3>Programming Languages</h3>
+      <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+      </ul>
+    </div>
+
+    <!-- Web Technologies -->
+    <div class="skill__box">
+      <h3>Web Technologies</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>DBMS</li>
+        <li>SQL</li>
+        <li>MongoDB</li>
+      </ul>
+    </div>
+
+    <!-- Tools & Software -->
+    <div class="skill__box">
+      <h3>Tools & Software</h3>
+      <ul>
+        <li>Arduino Uno</li>
+        <li>NodeMCU</li>
+        <li>Microcontrollers</li>
+        <li>Various Sensors</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications" class="section section--alt">
+    <div class="container reveal">
+      <h2 class="section__title"><span class="gradient-text">Certifications</span></h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Mongo DB</h3>
+          <p>30-hour Beyond Curriculum Training (BCT) by Ardent Computech Pvt. Ltd.</p>
+          <div class="tags">
+            <span>NoSQL Database</span>
+            <span>Aggregation Framework</span>
+            <span>MongoDB Atlas</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>IoT</h3>
+          <p>30-hour Beyond Curriculum Training (BCT) by Ardent Computech Pvt. Ltd.</p>
+          <div class="tags">
+            <span>Embedded Systems</span>
+            <span>Sensors & Actuators</span>
+            <span>Wireless Networking</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Databse Management System</h3>
+          <p>12-week NPTEL Certification Course by IIT Madras.</p>
+          <div class="tags">
+            <span>SQL</span>
+            <span>Normalization</span>
+            <span>Relational Databases</span>
+          </div>
+        </article>
+
+        <article class="card">
+          <h3>Python</h3>
+          <p>Coursera – University of Michigan. Training focused on Python programming essentials.</p>
+          <div class="tags">
+            <span>Programming Fundamentals</span>
+            <span>Problem Solving</span>
+            <span>Code Implementation</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section">
+    <div class="container reveal">
+      <h2 class="section__title">My <span class="gradient-text">Projects</span></h2>
+
+      <div class="projects__grid">
+        <!-- Project 1 -->
+        <article class="project">
+          <div class="project__image">
+            <img src="C:\Users\Soumyata Singh\OneDrive\Desktop\Portfolio\digital-marketing.jpg" alt="Digital Marketing Platform"/>
+          </div>
+          <div class="project__content">
+            <h3>Digital Marketing Platform</h3>
+            <p>A digital marketing platform is an all-in-one solution to manage, analyze, and optimize online marketing campaigns.</p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>Javascript</span>
+            </div>
+            <div class="links">
+              <a href="#" class="link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+              <a href="#" class="link"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project">
+          <div class="project__image">
+            <img src="C:\Users\Soumyata Singh\OneDrive\Desktop\Portfolio\restaurant-website.jpg.png" alt="Restaurant Website"/>
+          </div>
+          <div class="project__content">
+            <h3>Restaurant Website</h3>
+            <p>A responsive restaurant website designed to showcase the brand, attract customers, and enhance the dining experience.</p>
+            <div class="tags">
+              <span>HTML</span><span>Javascript</span><span>CSS</span>
+            </div>
+            <div class="links">
+              <a href="#" class="link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+              <a href="#" class="link"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project">
+          <div class="project__image">
+            <img src="C:\Users\Soumyata Singh\OneDrive\Desktop\Portfolio\weather-dashboard.jpg" alt="Weather Dashboard"/>
+          </div>
+          <div class="project__content">
+            <h3>Weather Dashboard</h3>
+            <p>Real-time weather info with 5-day forecast and location search.</p>
+            <div class="tags">
+              <span>JavaScript</span><span>API</span><span>CSS</span>
+            </div>
+            <div class="links">
+              <a href="#" class="link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+              <a href="#" class="link"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- ===== CONTACT SECTION ===== -->
+<section id="contact" class="section">
+  <div class="container reveal">
+    <h2 class="section__title"><span class="gradient-text">Contact</span> Me</h2>
+
+    <div class="contact__grid">
+      <!-- Left Info -->
+      <div class="contact__info">
+        <p>
+          Have a project in mind or want to discuss opportunities? Reach out and I’ll get back to you soon.
+        </p>
+
+        <div class="contact__list">
+          <div class="row">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>Kolkata, India</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <p>soumyatasingh5036@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p>+91 6289012612</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="contact__socials">
+          <a href="#" class="chip" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="#" class="chip" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#" class="chip" aria-label="X Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#" class="chip" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+      </div>
+
+      <!-- Right Form -->
+      <form class="contact__form" id="contactForm">
+        <div class="two">
+          <div class="field">
+            <label for="name">Your Name</label>
+            <input id="name" type="text" required>
+          </div>
+          <div class="field">
+            <label for="email">Your Email</label>
+            <input id="email" type="email" required>
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="subject">Subject</label>
+          <input id="subject" type="text" required>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" rows="6" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn--primary w-full">
+          Send Message <i class="fa-solid fa-paper-plane"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <a class="logo gradient-text" href="#home">Portfolio</a>
+    <p>© 2025 Soumyata Singh. All rights reserved.</p>
+    <div class="footer__links">
+      <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#" aria-label="X Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+      <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- ===== JS ===== -->
+  <script>
+    // Mobile menu
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    // Smooth scrolling for nav links
+    document.querySelectorAll('.nav a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        e.preventDefault();
+        const id = a.getAttribute('href');
+        const el = document.querySelector(id);
+        if (!el) return;
+        navLinks.classList.remove('open');
+        window.scrollTo({ top: el.offsetTop - 80, behavior: 'smooth' });
+      });
+    });
+
+    // Reveal on scroll + animate skill bars
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('reveal--in');
+
+          // If skills section, animate bars
+          if (entry.target.id === 'skills') {
+            document.querySelectorAll('#skills .bar span').forEach(b => {
+              b.style.width = b.style.getPropertyValue('--w');
+            });
+          }
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.reveal, #skills').forEach(el => io.observe(el));
+
+    // Contact form (demo)
+    document.getElementById('contactForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const payload = {
+        name: document.getElementById('name').value.trim(),
+        email: document.getElementById('email').value.trim(),
+        subject: document.getElementById('subject').value.trim(),
+        message: document.getElementById('message').value.trim()
+      };
+      console.log('Form submission:', payload);
+      alert('Thank you! Your message has been sent.');
+      e.target.reset();
+    });
+  </script>
+</body>
+</html>
